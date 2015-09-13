@@ -1,0 +1,16 @@
+{
+	"require": {
+		"illuminate/database": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"App": ""
+		},
+		"classpath": [
+			"App/Models",
+			"App/Contollers",
+			"App/Core",
+			"App/Helpers"
+		]
+	}
+}
